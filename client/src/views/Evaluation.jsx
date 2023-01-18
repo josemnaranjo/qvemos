@@ -26,7 +26,7 @@ const Evaluation = () => {
 
     const addScoreFromService = async (idR,values) => {
         await addScore(idR,values);
-        navigate('/home');
+        navigate('/');
     }
     
 

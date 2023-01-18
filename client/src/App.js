@@ -20,7 +20,7 @@ function App() {
     <div className="App">
       <UserProvider>
         <Routes>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/register" element={<Register />} />
           <Route path="/login" element={<Login />} />
           <Route path="/new-game" element={<NewGame />} />

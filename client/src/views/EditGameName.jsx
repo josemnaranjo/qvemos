@@ -11,7 +11,7 @@ const EditGameName = () => {
 
     const editGameNameFromService = async (id,values) => {
         await editGameName(id,values);
-        navigate('/home');
+        navigate('/');
     }
 
     return (

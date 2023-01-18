@@ -20,7 +20,7 @@ const Login = () => {
             console.log("LOGIN VIEW - LINEA 17", response);
             const response2 = await getUser(response.data._id);
             setUser(response2.data);
-            navigate('/home');
+            navigate('/');
 
         }else{
             const errorResponse = response.data.errors;

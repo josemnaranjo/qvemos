@@ -20,7 +20,7 @@ const Register = () => {
             console.log("REGISTER VIEW - LINEA 14 ",response.data);
             const response2 = await getUser(response.data._id);
             setUser(response2.data);
-            navigate("/home")
+            navigate("/")
         }else{
             const errorResponse = response.data.errors;
             const errorArr = [];
