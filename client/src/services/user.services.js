@@ -16,7 +16,6 @@ export const logout = async () => {
         }else{
             return {success:true,data:response}
         }
-
     }catch(err){
         return {success:false,data:{errors:{error:err}}}
     }
